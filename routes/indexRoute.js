@@ -15,6 +15,11 @@ const messages = [
     user: "Charles",
     added: new Date(),
   },
+  {
+    text: "Hi, there",
+    user: "Amando",
+    added: new Date(),
+  },
 ];
 
 app.use(express.urlencoded({ extended: true }));

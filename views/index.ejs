@@ -7,12 +7,13 @@
   </head>
   <body>
     <h1><%= title %></h1>
+
     <% messages.forEach(message => { %>
     <div>
       <h2><%= message.user %></h2>
       <p><%= message.text %></p>
       <p><%= message.added %></p>
-      <%}); %>
     </div>
+    <%}); %>
   </body>
 </html>
